@@ -1,0 +1,16 @@
+{
+  "name": "hertz-contact-calc",
+  "version": "1.0.0",
+  "description": "Hertz contact stress calculator for cylinders and spheres",
+  "license": "MIT",
+  "author": "shanguoao2026-web",
+  "type": "module",
+  "bin": { "hertz-contact-calc": "dist/cli.js" },
+  "scripts": {
+    "build": "tsc",
+    "test": "npm run build && node test/cli.test.js",
+    "start": "node dist/cli.js"
+  },
+  "engines": { "node": ">=18" },
+  "devDependencies": { "typescript": "^5.0.0", "@types/node": "^18.0.0" }
+}
